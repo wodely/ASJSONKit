@@ -1,0 +1,6 @@
+framework module ASJSONKit {
+  umbrella header "ASJSONKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

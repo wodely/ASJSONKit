@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ASJSONKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ASJSONKit.'
+  s.summary          = 'handle jsonDate '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+     ASJSONKit
                        DESC
 
-  s.homepage         = 'https://github.com/liukecyl@163.com/ASJSONKit'
+  s.homepage         = 'https://github.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liukecyl@163.com' => 'liukecyl@163.com' }
-  s.source           = { :git => 'https://github.com/liukecyl@163.com/ASJSONKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wodely/ASJSONKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.requires_arc = false
   s.source_files = 'ASJSONKit/Classes/**/*'
   
   # s.resource_bundles = {

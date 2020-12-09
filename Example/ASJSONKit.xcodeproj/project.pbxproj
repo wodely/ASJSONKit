@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0F48C9C229403DD985F6F944 /* Pods-ASJSONKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASJSONKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ASJSONKit_Example/Pods-ASJSONKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		36D5DC047C25E8BFB690C7D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		36D5DC047C25E8BFB690C7D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4A8EC6C5932A5D6E95C06162 /* Pods-ASJSONKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASJSONKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ASJSONKit_Tests/Pods-ASJSONKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ASJSONKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASJSONKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,13 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75B5350F495BD4C71AA13D39 /* ASJSONKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASJSONKit.podspec; path = ../ASJSONKit.podspec; sourceTree = "<group>"; };
+		75B5350F495BD4C71AA13D39 /* ASJSONKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASJSONKit.podspec; path = ../ASJSONKit.podspec; sourceTree = "<group>"; };
 		825C78F71D95CEC0AFE0D2CB /* Pods-ASJSONKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASJSONKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ASJSONKit_Example/Pods-ASJSONKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1BF48AA5FBD3516037B8950 /* Pods-ASJSONKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASJSONKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ASJSONKit_Tests/Pods-ASJSONKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E7A2644B21F67CD32A07501A /* Pods_ASJSONKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASJSONKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9B2AF06D09A64E94EDA1A7 /* Pods_ASJSONKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASJSONKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9C2293531924A3489DCC7EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F9C2293531924A3489DCC7EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				4A8EC6C5932A5D6E95C06162 /* Pods-ASJSONKit_Tests.debug.xcconfig */,
 				B1BF48AA5FBD3516037B8950 /* Pods-ASJSONKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "liukecyl@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = TU5L2H2C9P;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 0F48C9C229403DD985F6F944 /* Pods-ASJSONKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TU5L2H2C9P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASJSONKit/ASJSONKit-Prefix.pch";
 				INFOPLIST_FILE = "ASJSONKit/ASJSONKit-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 825C78F71D95CEC0AFE0D2CB /* Pods-ASJSONKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TU5L2H2C9P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASJSONKit/ASJSONKit-Prefix.pch";
 				INFOPLIST_FILE = "ASJSONKit/ASJSONKit-Info.plist";
