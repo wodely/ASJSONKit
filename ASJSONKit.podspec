@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASJSONKit'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'handle jsonDate '
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-     ASJSONKit
+     ASJSONKit for jsonDate
                        DESC
 
   s.homepage         = 'https://github.com'
